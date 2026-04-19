@@ -14,7 +14,16 @@ data:
     - groups:
       - roboshop-admin
       userarn: arn:aws:iam::870258692307:user/sneha
-      username: sneha     
+      username: sneha  
+    
+    - groups:
+      - roboshop-trainee
+      userarn: arn:aws:iam::870258692307:user/subbu
+      username: subbu
+    - groups:
+      - roboshop-trainee
+      userarn: arn:aws:iam::870258692307:user/rama
+      username: rama       
 kind: ConfigMap
 metadata:
   creationTimestamp: "2026-04-19T08:56:23Z"
